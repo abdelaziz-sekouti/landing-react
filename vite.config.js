@@ -9,6 +9,7 @@ export default defineConfig({
   esbuild: {
     loader: 'jsx',
   },
+  base: '/landing-react/',
   resolve: {
     alias: {
       'runtime-config': `runtimeConfig.browser`,

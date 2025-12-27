@@ -6,4 +6,19 @@ export default defineConfig({
   plugins: [react(),
   tailwindcss()
   ],
+  esbuild: {
+    loader: 'jsx',
+  },
+  resolve: {
+    alias: {
+      'runtime-config': `runtimeConfig.browser`,
+  },
+},
+optimizeDeps: {
+    esbuildOptions: {
+      loader: {
+        '.js': 'jsx',
+      },
+    },
+  },
 })

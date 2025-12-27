@@ -81,7 +81,7 @@ const WhatsAppChatbot = () => {
               className="fixed bottom-24 right-6 w-80 max-w-[90vw] bg-white rounded-2xl shadow-2xl z-50 overflow-hidden"
             >
               {/* Header */}
-              <div className="bg-gradient-to-r from-green-500 to-green-600 text-white p-4">
+              <div className="bg-linear-to-r from-green-500 to-green-600 text-white p-4">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center space-x-3">
                     <div className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">

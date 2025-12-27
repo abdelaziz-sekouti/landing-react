@@ -5,8 +5,8 @@ const NavigationBar = () => {
   const location = useLocation()
   
   const navItems = [
-    { name: 'Sports News', path: '/sports-news' },
-    { name: 'Facilities', path: '/facilities' }
+    { name: 'Sports News', path: 'landing-react/sports-news' },
+    { name: 'Facilities', path: 'landing-react/facilities' }
   ]
 
   return (

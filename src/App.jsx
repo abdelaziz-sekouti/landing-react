@@ -9,7 +9,7 @@ function App() {
     <Router>
       <div className="min-h-screen flex flex-col">
         <NavigationBar />
-        <main className="flex-grow">
+        <main className="grow">
           <AnimatedRoutes />
         </main>
         <Footer />

@@ -12,21 +12,21 @@ function AnimatedRoutes() {
   return (
     <AnimatePresence mode="wait" initial={false}>
       <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<SportsNewsLayout />}>
+        <Route path="/landing-react/" element={<SportsNewsLayout />}>
           <Route index element={
             <motion.div {...pageTransitionConfig}>
               <SportsNewsHome />
             </motion.div>
           } />
         </Route>
-        <Route path="/sports-news" element={<SportsNewsLayout />}>
+        <Route path="/landing-react/sports-news" element={<SportsNewsLayout />}>
           <Route index element={
             <motion.div {...pageTransitionConfig}>
               <SportsNewsHome />
             </motion.div>
           } />
         </Route>
-        <Route path="/facilities" element={<FacilitiesLayout />}>
+        <Route path="/landing-react/facilities" element={<FacilitiesLayout />}>
           <Route index element={
             <motion.div {...pageTransitionConfig}>
               <FacilitiesHome />
